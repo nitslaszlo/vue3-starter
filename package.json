@@ -8,7 +8,8 @@
     "lint": "eslint --ext .ts,.tsx --ignore-path .gitignore .  --fix",
     "format": "prettier -w -u .",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "test": "jest"
   },
   "dependencies": {
     "@quasar/extras": "^1.10.12",
@@ -20,17 +21,23 @@
   },
   "devDependencies": {
     "@rollup/plugin-yaml": "^3.1.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@types/jest": "^27.0.1",
     "@types/node": "^16.4.13",
     "@typescript-eslint/eslint-plugin": "^4.31.0",
     "@typescript-eslint/parser": "^4.31.0",
     "@vitejs/plugin-vue": "^1.6.2",
     "@vue/eslint-config-typescript": "^7.0.0",
+    "@vue/test-utils": "^2.0.0-rc.14",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^7.17.0",
+    "jest": "^26.6.3",
     "prettier": "^2.4.0",
     "sass": "^1.39.2",
+    "ts-jest": "^26.5.6",
     "typescript": "^4.4.3",
     "vite": "^2.5.6",
+    "vue-jest": "^5.0.0-alpha.10",
     "vue-tsc": "^0.3.0"
   }
 }
