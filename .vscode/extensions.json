@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "johnsoncodehk.volar",
+    "lokalise.i18n-ally",
+    "formulahendry.auto-rename-tag",
+    "CoenraadS.bracket-pair-colorizer-2",
+    "eamodio.gitlens",
+    "christian-kohler.npm-intellisense",
+    "eg2.vscode-npm-script",
+    "PKief.material-icon-theme",
+    "ban.spellright",
+    "tomoki1207.pdf"
+  ]
+}
