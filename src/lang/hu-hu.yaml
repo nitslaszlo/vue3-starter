@@ -1,8 +1,10 @@
 hello: Szia
 home:
   settingsLink: Beállítások
+  about: Névjegy
 randomNumber: Véletlen szám generálása...
-randomNumberGenerated: 'Véletlen szám: {randomNumber}'
-settings.changeLanguage: Nyelv
-settings.homeLink: Főoldal
+randomNumberGenerated: "Véletlen szám: {randomNumber}\t"
+settings:
+  changeLanguage: Nyelv
+  homeLink: Főoldal
 sir: Uram

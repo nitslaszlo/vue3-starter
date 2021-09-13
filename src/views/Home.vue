@@ -4,7 +4,8 @@
     <counter v-model:count="count" />
   </div>
   <div>
-    <q-btn color="primary" :label="t('home.settingsLink')" :to="{ name: 'Settings' }" />
+    <q-btn class="q-ma-md" color="primary" :label="t('home.settingsLink')" :to="{ name: 'Settings' }" />
+    <q-btn class="q-ma-md" color="info" :label="t('home.about')" :to="{ name: 'About' }" />
   </div>
 </template>
 

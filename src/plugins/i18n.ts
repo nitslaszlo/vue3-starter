@@ -2,8 +2,8 @@ import { Quasar } from "quasar";
 import { Plugin } from "vue";
 import { createI18n } from "vue-i18n";
 
-import huHu from "../lang/hu-hu.yaml";
-import enGb from "../lang/en-gb.yaml";
+import huHu from "@/lang/hu-hu.yaml";
+import enGb from "@/lang/en-gb.yaml";
 
 import quasarEnGb from "quasar/lang/en-GB";
 import quasarHu from "quasar/lang/hu";
